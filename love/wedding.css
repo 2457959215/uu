@@ -1,0 +1,248 @@
+body{padding: 0;margin: 0;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";}
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dd,dt{padding: 0;margin: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: #000;}
+/*头部*/
+header{
+    height: 135px;
+    width: 100%;
+    background: url("imags/bg2_03.png") repeat;
+    background-size: contain;
+}
+.head{width: 976px;margin:0 auto;height: 126px;}
+.head p{}
+/*logo图*/
+.logo{margin-top: 18px;}
+.spanheade{float: right;display: inline-block;margin-top: 5px;}
+.spanheade a{margin-right: 5px;}
+.user{float: right; clear: both;margin-top: 20px;}
+.user input{ width: 100px;margin-right: 15px;}
+.user button{ width:50px;text-align:center ;color:red;border-radius: 5px;color: red;background: #f4f4f5;}
+/*导航栏*/
+.navul li{
+    margin-top: 10px;
+    width: 86px;text-align: center;
+    border-right: 1px solid #e1e3e6;border-left: 1px solid #e1e3e6;
+    float: left;
+}
+.navul li:first-child{border-left: 0;}
+
+/* 主页顶部展示区 */
+.showindex{
+    width: 100%;
+    height:464px;
+    background: url("imags/showbig.jpg") no-repeat;
+    background-size: cover;
+    background-position:50% 30%;
+}
+.div1{height:362px; }
+/*透明层*/
+.smallimg{
+    width: 960px;margin: 0 auto;padding-left: 10px;
+    height: 102px;background: #000;
+    opacity: 0.70;          /*可以兼容 浏览器了**/
+    -moz-opacity:0.7;    /* 兼容 FF*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /*IE8*/
+    filter: alpha(opacity=70);  /*IE5、IE5.5、IE6、IE7*/
+}
+/*透明层上展示图*/
+.smalldiv{
+   float: left;margin: 20px 5px;
+}
+.smalldiv>div{
+    margin-left: 8px;
+    float: right; width: 146px;color: #c5c5c5;
+}
+.smalldiv p{margin-top: 5px;}
+
+/*中间内容部分*/
+.centent{
+    clear: both;
+    width: 960px;
+    margin: 20px auto;
+}
+.centtop1{margin: 20px 0;}
+/*写真*/
+.portant{float: left;font-weight: 600; padding-left:10px;width: 576px;}
+.p_title{text-align: left; line-height:26px; font-weight: 600;
+    margin-bottom: 10px;
+}
+.p_title img{width: 100%; display: block;}
+/*-----------*/
+.title1{color: #f9733d;font-size: 20px;font-family: Myriad Pro;}
+.title2{color: #000;font-size: 16px;font-family: "宋体";}
+.title3{color: #f86e9e;font-size: 12px;font-family: Arial; margin-left: 40px;}
+.portant .p_title a{float:right;margin:10px 20px 0 0;}
+
+.portant div{width:105px;float:left;margin:10px 10px 0 0; }
+/*图片下面显示的文字*/
+.portant div p{color: #a7a4a4;padding-top:10px;text-align: center;}
+.portant div img{width:105px;height: 153px; }
+
+/*活动*/
+.activity{
+    float: left;margin-left:25px;
+    width:340px;
+}
+.p_title a{float:right;margin-right: 20px;}
+.kefu_qq{text-align: center;color: #f86e9e;font-size: 14px;line-height: 38px;
+    margin-top: -8px;}
+.text{color: #909090;}
+.text p:first-child{text-align: left;color: #3a3a3a; }
+.text p{vertical-align: middle;}
+.text .bigtext{font-size: 33px;font-weight: 600;margin: 0;}
+.text p>span{margin-right: 20px;}
+
+/*婚纱*/
+.workshow{
+    clear: both;
+    padding-left:15px;
+}
+.p_title .amore{background: #f9733d;color: #fff;padding: 1px 5px;font-weight: 400;margin-right: 0;}
+.work_left{float:left;}
+.work_left p{font-size: 16px;line-height: 47px; text-align: center;color: #747070;background: #f3f3f3;}
+/**/
+.work_right{float:left;margin-left: 10px;width: 712px;}
+.work_right>li{float: left;margin-left:20px;}
+.work_right li p{line-height: 36px;color: #747070;background: #f3f3f3;}
+.work_right li p span{float: right;}
+
+/*-------*/
+.cent_top2{
+    float: left; width: 646px;
+}
+.centdiv2{
+  width: 638px;
+}
+.centdiv2> div{display: inline-block;}
+.centdiv2 ul{float:right;width: 216px;  margin-top: -10px;  margin-left: 3px; padding: 0;font-size:12px;-webkit-transform:scale(0.9);}
+.centdiv2 li:first-child {line-height: 30px; color:#f86e9e;font-weight: 600;}
+.more_red{color: #fff;background: #f86e9e;padding: 1px 6px;}
+.centdiv2 div p{margin: 20px;}
+.cent_top2 p img{display: block;margin: 0 auto;width: 100%;}
+/*
+礼服
+*/
+.dress div{
+    display: inline-block;
+    width: 139px;height: 191px;overflow: hidden;
+    margin: 10px 9px 0 9px;
+}
+.dress img{width: 100%;}
+
+/* 团队活动actions */
+.actions_left{
+    float:left; width: 48%;
+}
+.actions_left div{
+    height: 91px;
+    margin:5px 0;
+}
+
+.vip{margin-left: 110px;}
+.actions_left div img{float: left;margin-right: 10px;}
+.actions_left ul li{line-height: 30px;vertical-align: middle;}
+.actions_left ul li img{margin: 0 5px;}
+.actions_left .title3{line-height: 24px;font-weight: 600;}
+
+.actions_right{float:right; width: 48%;}
+.actions_right .title3{padding-left: 30px;line-height: 42px;font-weight: 600;}
+.actions_right ul li{
+    border-bottom:1px dashed #bfbfbf;
+    line-height: 33px;
+    display: inline-block;
+}
+.imgline{width: 100%;}
+
+.centbottom{
+}
+/*---关于我们---------*/
+.about{ float:left; color:#b8b8b8; width:45%;}
+.p_about{text-shadow:1px 1px 1px;  color: #b8b8b8;}
+.about .p_about{margin-bottom: 30px;}
+
+.p_about .bigtext{font-size: 22px;color: #f88eb1;}
+
+.divtext{margin-top: 10px;text-indent: 2em;}
+/*我们的团队*/
+.ourTeam{width: 324px;float:right; }
+.ourTeam ul{ margin-top: 30px;}
+.ourTeam li{ width: 108px;  float:left;height: 108px;}
+.ourTeam li img{width: 108px;height: 108px;}
+.ourTeam li p{
+    background: #000;margin-top: -30px;
+    color: #fff;
+    line-height: 30px;
+     opacity: 0.70;          /*可以兼容 浏览器了**/
+    -moz-opacity:0.7;    /* 兼容 FF*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /*IE8*/
+    filter: alpha(opacity=70);
+}
+
+/*炫耀爱情 右边框  */
+.show_love{
+    width: 308px;float: right;height: 1200px;
+}
+.show_love ul{margin: 20px 3px 3px 3px; }
+.show_love ul li{margin:20px 0;}
+.lovediv{height:65px; }
+.lovediv>img{float: left;width:80px;}
+.lovediv div{
+    background: #fff; float:left; width: 214px; margin-left: 8px;}
+/* ---  */
+.love_title img{top: -3px;position: relative;margin-right: 5px;}
+.love_title{
+    line-height: 32px;margin-top: -10px;
+    color:#f86e9e;vertical-align: middle;}
+.love_p2{text-indent:1em;}
+.p_time{
+    padding-left: 15px;
+    background: #f7f7f7;
+    line-height: 30px;
+    margin-top: 1px;
+}
+.p_time a{ color:#f86e9e; float:right;margin-right: 10px;}
+
+/*--微信二维码------------*/
+.love_bottom{
+    display: inline-block;margin: 2px 9px;
+    width:132px;height: 424px;
+    background: url("imags/bg_s1_03.png") no-repeat;
+    background-size: cover;
+}
+.love_bottom>div{padding:50px 8px 10px 8px;}
+.weixin{
+    background: #fff;  text-align: center;
+    padding: 6px 0 4px 0;margin-bottom: 6px;
+}
+.online_kefu{
+    text-align: center; margin-top: 5px;
+    line-height: 38px; height: 38px;
+    color: #fff;background: #ff8215;}
+/*返回顶部*/
+.fanhui_top{display: inline-block;width: 150px;text-align: center;}
+.fanhui_top a{
+    display: block;line-height: 24px;cursor: pointer;
+    color: #e33928;font-size: 20px;font-weight: 600;
+}
+/*--show_love------*/
+.show_love .bottom_ul{margin-top:35px;}
+ .show_love .bottom_ul li{
+    text-align: left;margin: 0; margin-left: 60px;
+    color: #b8b8b8; line-height:30px;
+}
+.bottom_ul .p_about{margin-bottom: 20px;}
+
+
+/*--底部------*/
+footer{
+    padding: 10px 0;
+    background: #333;
+    color: #919191;text-align: center;
+}
+footer p{
+    font-size: 14px;
+    line-height: 34px;
+}
